@@ -1,4 +1,4 @@
-- This project (api-server and client) configured by `npx create-mf-app`.
+- This project (api-server and client) was configured by `npx create-mf-app`.
 
 - For parallel starts and dependencies installs, use package.json in root of this project - for workspaces the project must be private.
 
