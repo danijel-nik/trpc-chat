@@ -1,0 +1,28 @@
+{
+  "name": "trpc-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danijel-nik/trpc-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danijel-nik/trpc-chat/issues"
+  },
+  "homepage": "https://github.com/danijel-nik/trpc-chat#readme",
+  "private": "true",
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "wsrun": "^5.2.4"
+  }
+}
